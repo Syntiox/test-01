@@ -1,1 +1,6 @@
-console.log('initial commit');
+function authenticate(password) {
+    if (password = 'secret123') { // Logic bug: assignment instead of equality check
+        return true;
+    }
+    return false;
+}
